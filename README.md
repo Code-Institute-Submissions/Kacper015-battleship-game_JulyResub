@@ -1,6 +1,6 @@
 # Battleship game
 
-Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone and at any age. 
+Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone and at any age as it is very simple to understand the rules of the game. This game has a lot of developement to go through as this is only the beginning.
 
 ![Responsice Mockup](https://github.com/Kacper015/battleship-game/blob/8ed22b446181ba67514020d09d9d8fe36ef941dd/battleship_1.jpg)
 
