@@ -30,25 +30,26 @@ No errors were returned when passing through the official [PEP8 validator](https
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+One bug that I have found in my game is when you enter only a letter for example "a" the game will give you an error and you will have to run it again. This won't happen if you type in a6 twice as it will say that you have shot that space already.
 
 ## Deployment
 
-I have deployed my website on github pages. [Github pages](https://github.com/)
+I have deployed my website on heroku. [Heroku](https://heroku.com/)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, go to the Settings tab.
-  - In the settings tab find github pages.
-  - When your website is public, you can host your website through github pages. 
+- The site was deployed to Heroku. The steps to deploy are as follows: 
+  - On heroku, go to the Settings tab.
+  - Add python and nodejs.
+  - Connect your github with heroku. 
+  - If you wish you can deploy your code autoamtically or manually. 
 
-Here is a live link to the website- https://kacper015.github.io/Rock-Paper-Scissors-Game/
+Here is a live link to the website- https://bbattle-ship-game.herokuapp.com/
 
 
 ## Credits 
 
-I have used a tutorial to help myself with coding. I haven't used any fonts or any pictures that don't belong to me. I have used simple emojis such as 👊 that are available for everyone.
+I have used a tutorial to help myself with coding. I haven't used any fonts or any pictures that don't belong to me.
 
 ### Content 
 
-- Instruction on how to code rock paper scissors in javascript [Specific YouTube Tutorial](https://youtu.be/1yS-JV4fWqY)
+- Tutorial how to code battleship game [Tutorial website](https://pythondex.com/python-battleship-game)
 
