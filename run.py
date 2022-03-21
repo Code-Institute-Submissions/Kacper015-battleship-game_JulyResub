@@ -42,7 +42,7 @@ alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     """
-    This check the row & column to see 
+    This check the row & column to see
     if it is safe to place a ship there
     """
     global grid
@@ -95,7 +95,7 @@ def try_to_place_ship_on_grid(row, col, direction, length):
 
 def create_grid():
     """
-    This will create a 10x10 grid and randomly place 
+    This will create a 10x10 grid and randomly place
     down shipsof different sizes in different directions
     """
     global grid
@@ -123,7 +123,7 @@ def create_grid():
         random_col = random.randint(0, cols - 1)
         direction = random.choice(["left", "right", "up", "down"])
         ship_size = random.randint(3, 5)
-        if try_to_place_ship_on_grid(random_row, random_col, direction, ship_size):
+        if try_to_place_on_grid(random_row, random_col, direction, ship_size):
             num_of_ships_placed += 1
 
 
@@ -274,7 +274,7 @@ def main():
 
     while game_over is False:
         print_grid()
-        print("Number of ships remaining: " + str(num_of_ships - num_of_ships_sunk))
+        print("Number of ships left: " + str(num_of_ships - num_of_ships_sunk))
         print("Number of bullets left: " + str(bullets_left))
         shoot_bullet()
         print("----------------------------")
@@ -284,7 +284,7 @@ def main():
 
 if __name__ == '__main__':
     """
-    Will only be called when program is 
+    Will only be called when program is
     run from terminal or an IDE like PyCharms
     """
     main()
