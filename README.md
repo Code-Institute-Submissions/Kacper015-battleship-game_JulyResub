@@ -2,7 +2,7 @@
 
 Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone 
 
-![Responsice Mockup](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/8b279cd0df4806946956f21ee2115041ecb9d223/Screenshot%202022-02-14%20at%2008.10.39.png)
+![Responsice Mockup](https://github.com/Kacper015/battleship-game/blob/8ed22b446181ba67514020d09d9d8fe36ef941dd/battleship_1.jpg)
 
 ## Features 
 
