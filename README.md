@@ -1,56 +1,32 @@
 # Battleship game
 
-Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone 
+Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone and at any age. 
 
 ![Responsice Mockup](https://github.com/Kacper015/battleship-game/blob/8ed22b446181ba67514020d09d9d8fe36ef941dd/battleship_1.jpg)
 
-## Features 
-
-
-
 ### Existing Features
 
-
-
+- __Random generator__
+  
+  -There is a random generator imported to the project. This makes the game interesting as the ship is always in a different position
+ 
 - __Results__
 
-  - The results look really simple, if you win you can see youre sign with full color and when you lose your sign has less color so it is easier to see who win, you or the computer. 
-  - There can be a winner, a loser and a draw. If there is a draw both of the signs are a bit without color. 
+  - The ships are showed on the grid as a O. If you hit it it marks the spot as X.
+  - If you hit all the O in less then 50 bullets you win the game. 
 
-![Results](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/c831554fa81579a6a125388402c98fd2e8c51879/Screenshot%202022-02-14%20at%2011.17.13.png)
+![Results](https://github.com/Kacper015/battleship-game/blob/cc5728905ee23d90cb2f246cdf58e51e71261e03/battleship_2.jpg)
 
-- __Feedback box__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Feedback box](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/f2e7d89db4c8862906c2ad6f9c2d8e6a066a5bb0/Screenshot%202022-02-14%20at%2011.45.03.png)
-
-- __The Footer__ 
-
-  - The footer wishes fun to the player and says what to do to refresh the scores. 
-  - The footer also shows links to social media. 
-
-![Footer](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/f2e7d89db4c8862906c2ad6f9c2d8e6a066a5bb0/Screenshot%202022-02-14%20at%2011.45.03.png)
 
 ### Features Left to Implement
 
-- Register page.
-- More games. 
-- Player highest score. 
+- Game menu.
+- Nicer style 
+- More difficult game modes. 
 
 ## Testing 
 
-My website has passed HTML and CSS Validator testing with no issues. 
-
-My website works on different screen sizes like for e.g. phone screen. 
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+No errors were returned when passing through the official [PEP8 validator](https://http://pep8online.com/)
 
 ### Unfixed Bugs
 
