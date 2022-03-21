@@ -63,7 +63,7 @@ def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     return all_valid
 
 
-def try_to_place_ship_on_grid(row, col, direction, length):
+def try_to_place_on_grid(row, col, direction, length):
     """
     Based on direction will call helper method
     to try and place a ship on the grid
