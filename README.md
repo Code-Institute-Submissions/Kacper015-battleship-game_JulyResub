@@ -1,31 +1,78 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battleship game
 
-Welcome Kacper015,
+Battleship game is a very simple and easy game to play. You have to guess ship position and try to shoot it down. If you shoot all of them down you win. In my opinion this game is aimed at anyone 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![Responsice Mockup](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/8b279cd0df4806946956f21ee2115041ecb9d223/Screenshot%202022-02-14%20at%2008.10.39.png)
 
-## Reminders
+## Features 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### Existing Features
 
-1. `heroku/python`
-2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- __Results__
 
-Connect your GitHub repository and deploy as normal.
+  - The results look really simple, if you win you can see youre sign with full color and when you lose your sign has less color so it is easier to see who win, you or the computer. 
+  - There can be a winner, a loser and a draw. If there is a draw both of the signs are a bit without color. 
 
-## Constraints
+![Results](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/c831554fa81579a6a125388402c98fd2e8c51879/Screenshot%202022-02-14%20at%2011.17.13.png)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- __Feedback box__
 
------
-Happy coding!
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
+
+![Feedback box](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/f2e7d89db4c8862906c2ad6f9c2d8e6a066a5bb0/Screenshot%202022-02-14%20at%2011.45.03.png)
+
+- __The Footer__ 
+
+  - The footer wishes fun to the player and says what to do to refresh the scores. 
+  - The footer also shows links to social media. 
+
+![Footer](https://github.com/Kacper015/Rock-Paper-Scissors-Game/blob/f2e7d89db4c8862906c2ad6f9c2d8e6a066a5bb0/Screenshot%202022-02-14%20at%2011.45.03.png)
+
+### Features Left to Implement
+
+- Register page.
+- More games. 
+- Player highest score. 
+
+## Testing 
+
+My website has passed HTML and CSS Validator testing with no issues. 
+
+My website works on different screen sizes like for e.g. phone screen. 
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+## Deployment
+
+I have deployed my website on github pages. [Github pages](https://github.com/)
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, go to the Settings tab.
+  - In the settings tab find github pages.
+  - When your website is public, you can host your website through github pages. 
+
+Here is a live link to the website- https://kacper015.github.io/Rock-Paper-Scissors-Game/
+
+
+## Credits 
+
+I have used a tutorial to help myself with coding. I haven't used any fonts or any pictures that don't belong to me. I have used simple emojis such as 👊 that are available for everyone.
+
+### Content 
+
+- Instruction on how to code rock paper scissors in javascript [Specific YouTube Tutorial](https://youtu.be/1yS-JV4fWqY)
+
