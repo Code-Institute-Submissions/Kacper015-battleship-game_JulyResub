@@ -34,6 +34,8 @@ One bug that I have found in my game is when you enter only a letter for example
 
 Another bug that I have found is called W292 which says no newline at the end of the file.
 
+Last bug I have found is E501 and this means that one of the lines are too long in my code.
+
 ## Deployment
 
 I have deployed my website on heroku. [Heroku](https://heroku.com/)
