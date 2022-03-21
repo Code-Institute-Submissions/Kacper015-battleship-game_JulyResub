@@ -32,6 +32,8 @@ No errors were returned when passing through the official [PEP8 validator](https
 
 One bug that I have found in my game is when you enter only a letter for example "a" the game will give you an error and you will have to run it again. This won't happen if you type in a6 twice as it will say that you have shot that space already.
 
+Another bug that I have found is called W292 which says no newline at the end of the file.
+
 ## Deployment
 
 I have deployed my website on heroku. [Heroku](https://heroku.com/)
