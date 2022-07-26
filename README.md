@@ -1,8 +1,8 @@
 # Battleship game
 
-Battleship game is a very simple and easy game to play. You can choose a row and column such as A3 to indicate where to shoot. For every shot that hits or misses it will show up in the grid as O and X. If you shoot all of them down you win. In my opinion this game is aimed at anyone and at any age as it is very simple to understand the rules of the game. This game has a lot of developement to go through as this is only the beginning.
+Battleship game is a very simple and easy game to play. You can choose a row and column such as A3 to indicate where to shoot. For every shot that hits or misses it will show up in the grid as X and -. If you shoot all of them down you win. In my opinion this game is aimed at anyone and at any age as it is very simple to understand the rules of the game. This game has a lot of developement to go through as this is only the beginning.
 
-![Responsice Mockup](https://github.com/Kacper015/battleship-game/blob/8ed22b446181ba67514020d09d9d8fe36ef941dd/battleship_1.jpg)
+![Battleship game](https://github.com/Kacper015/battleship-game/blob/82b6fca58c5ab96cdea66338cf2b03556661f7b3/Media%20File/Battleships.png)
 
 ### Existing Features
 
@@ -12,10 +12,10 @@ Battleship game is a very simple and easy game to play. You can choose a row and
  
 - __Results__
 
-  - The ships are showed on the grid as a O. If you hit it it marks the spot as X.
-  - If you hit all the O in less then 50 bullets you win the game. 
+  - The ships are showed on the grid as a ".". If you hit it it marks the spot as X.
+  - If you hit all the "." in less then 10 bullets you win the game. 
 
-![Results](https://github.com/Kacper015/battleship-game/blob/cc5728905ee23d90cb2f246cdf58e51e71261e03/battleship_2.jpg)
+![Results](https://github.com/Kacper015/battleship-game/blob/4cc47430559fcd59fe5016c0bdf3be0cf106e60c/Media%20File/Battleships%20missed%20shot.png)
 
 
 ### Features Left to Implement
@@ -26,15 +26,7 @@ Battleship game is a very simple and easy game to play. You can choose a row and
 
 ## Testing 
 
-No errors were returned when passing through the official [PEP8 validator](https://http://pep8online.com/)
-
-### Unfixed Bugs
-
-One bug that I have found in my game is when you enter only a letter for example "a" the game will give you an error and you will have to run it again. This won't happen if you type in a6 twice as it will say that you have shot that space already.
-
-Another bug that I have found is called W292 which says no newline at the end of the file.
-
-Last bug I have found is E501 and this means that one of the lines are too long in my code.
+No errors were returned when passing through the official [PEP8 validator](https://pep8online.com/)
 
 ## Deployment
 
@@ -46,7 +38,7 @@ I have deployed my website on heroku. [Heroku](https://heroku.com/)
   - Connect your github with heroku. 
   - If you wish you can deploy your code autoamtically or manually. 
 
-Here is a live link to the website- https://bbattle-ship-game.herokuapp.com/
+Here is a live link to the website- https://bbattle-ship-game.herokuapp.com
 
 
 ## Credits 
@@ -55,5 +47,5 @@ I have used a tutorial to help myself with coding. I haven't used any fonts or a
 
 ### Content 
 
-- Tutorial how to code battleship game [Tutorial website](https://pythondex.com/python-battleship-game)
+- Tutorial how to code battleship game [Tutorial](https://youtu.be/tF1WRCrd_HQ)
 
